@@ -7,7 +7,7 @@ process.env.NODE_ENV = "development";
 module.exports = {
   mode: "development",
   target: "web",
-  devTool: "cheap-module-source-map", // we get source maps for debugging
+  devtool: "cheap-module-source-map", // we get source maps for debugging
   entry: "./src/index", // .js can be omitted/default for webpack
   output: {
     path: path.resolve(__dirname, "build"),
